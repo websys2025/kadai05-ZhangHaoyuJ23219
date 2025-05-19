@@ -14,7 +14,9 @@
     <script>
         async function zip_api(myForm) {
             const endpoint = "https://zipcloud.ibsnet.co.jp/api/search";
+            // ここにコードを書く
             // { "userId": 1, "id": 1, "title": "delectus aut autem", "completed": false }
+            
             // zipcloudのAPI呼び出して結果を表示する
             document.getElementById("result").innerHTML =  myForm.zipcode.value; // 現状ではそのまま表示しているだけ
         }
